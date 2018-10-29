@@ -34,13 +34,16 @@
   ],
   "repository": "yeoman/generator-angular",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
-    "wiredep": "^1.0.0",
-    "yeoman-generator": "^0.16.0",
+    "wiredep": "^3.0.1",
+    "yeoman-generator": "^0.21.0",
     "yosay": "^0.2.0",
-    "chalk": "^0.4.0"
+    "chalk": "^0.4.0",
+    "snyk": "^1.105.0"
   },
   "peerDependencies": {
     "generator-karma": ">=0.8.2",
@@ -64,5 +67,6 @@
     {
       "type": "BSD"
     }
-  ]
+  ],
+  "snyk": true
 }
