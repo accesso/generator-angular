@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "wiredep": "^1.0.0",
-    "yeoman-generator": "^0.16.0",
+    "yeoman-generator": "^0.24.1",
     "yosay": "^0.2.0",
     "chalk": "^0.4.0"
   },
